@@ -851,7 +851,7 @@ if test "${enable_crypto}" = "yes" -a "${with_crypto_library}" = "openssl"; then
 		# if the user did not explicitly specify flags, try to autodetect
 		PKG_CHECK_MODULES(
 			[OPENSSL],
-			[libcrypto >= 0.9.8, libssl >= 0.9.8],
+			[openssl >= 0.9.8],
 	        [have_openssl="yes"],
 			[have_openssl="no"] # Provide if-not-found to prevent erroring out
 		)
