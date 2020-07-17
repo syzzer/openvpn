@@ -38,6 +38,9 @@ https://community.openvpn.net/openvpn/wiki/DeprecatedOptions
   This option was made into a NOOP option with OpenVPN 2.4.  This has now
   been completely removed.
 
+- Support for building with OpenSSL 1.0.1 has been removed. The minimum
+  supported OpenSSL version is now 1.0.2.
+
 User-visible Changes
 --------------------
 - If multiple connect handlers are used (client-connect, ccd, connect
